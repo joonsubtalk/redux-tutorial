@@ -9,3 +9,8 @@ export const removeCounter = () => ({
     type: actionType.REMOVE_COUNTER,
     payload: 1
 });
+
+export const clearCounter = () => ({
+    type: actionType.CLEAR_COUNTER,
+    payload: 0
+});
